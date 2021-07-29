@@ -1,0 +1,54 @@
+.jumbotron {
+  padding: 5rem 1rem;
+  background-color: rgb(242, 243, 243);
+}
+.navbar {
+  background-color: rgb(44, 83, 83);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.banner {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner video {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.banner h1 {
+  font-size: 200%;
+  position: absolute;
+  z-index: 2;
+  color: aliceblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.display-5 {
+  font-weight: bold;
+}
+.card-body-icon {
+  position: absolute;
+  z-index: 0;
+  top: 25px;
+  right: 4px;
+  opacity: 0, 4;
+  font-size: 90px;
+}
+
+* body {
+  background-color: rgb(241, 237, 237);
+  background-image: url(image/abu.png);
+}
+.card-body {
+  padding-top: 5rem;
+}
